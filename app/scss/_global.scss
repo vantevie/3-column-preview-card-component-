@@ -20,3 +20,57 @@ body {
         padding: 1.5rem;
     }
 }
+
+//  utils
+.orange-bg {
+    background: $bright-orange;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.cyan-bg {
+    background: $dark-cyan;
+}
+
+.green-bg {
+    background: $very-dark-cyan;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+h1{
+    color: $very-light-gray;
+    font-family: $bsd;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: $transparent-white;
+    font-family: $lexend;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: $lexend;
+}
+
+.btn-orange {
+    color: $bright-orange;
+}
+
+.btn-cyan {
+    color: $dark-cyan;
+}
+
+.btn-green {
+    color: $very-dark-cyan;
+}
+
+.btn {
+    align-items: center;
+    background: $very-light-gray;
+    border-radius: 50px;
+    padding: 15px 30px;
+}

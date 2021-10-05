@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 3.8125rem 0;
+}
+
+.card {
+  padding: 48px 2.8125rem;
+  header {
+    background-repeat: no repeat;
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+  p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    line-height: 1.6;
+  }
+}

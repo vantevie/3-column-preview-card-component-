@@ -1,7 +1,8 @@
 // Variables
-@use "variables";
-@use "colors";
-@use "typography";
+@import "colors";
+@import "variables";
+@import "typography";
 
 // Content
-@use "global";
+@import "global";
+@import "card";
