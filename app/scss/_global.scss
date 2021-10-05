@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 1.25rem;
+    background-color: $very-light-gray;
+    color: #282828;
+    line-height: 1.3;
+    font-size: 0.9375rem;
+
+    @media #{$mq-1000-up} {
+        padding: 1.5rem;
+    }
+}
