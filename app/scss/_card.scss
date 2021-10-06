@@ -10,14 +10,40 @@ main {
 
 .card {
   padding: 48px 2.8125rem;
+  padding-bottom: 60px;
   header {
     background-repeat: no repeat;
     padding-top: 0;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
   }
+
   p {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    line-height: 1.6;
+    padding-top: 23px;
+    padding-bottom: 38px;
+    line-height: 1.7;
+  }
+
+}
+
+@media #{$mq-760-up} {
+  main {
+    flex-direction: row;
+    flex-wrap: unset;
+  }
+
+  .orange-bg {
+    border-radius: 0.5rem 0 0 0.5rem;
+    margin-left: 15%;
+  }
+
+  .green-bg {
+    border-radius: 0 0.5rem 0.5rem 0;
+    margin-right: 15%;
+    }
+
+  .card {
+    p {
+      padding-bottom: 100px;
+    }
   }
 }

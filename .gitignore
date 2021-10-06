@@ -20,5 +20,5 @@ node_modules/
 dist/
 
 # Guides
-# style-guide.md
-# design/
+style-guide.md
+design/
