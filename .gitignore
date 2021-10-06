@@ -17,7 +17,7 @@
 
 # Gulp
 node_modules/
-dist/
+# dist/
 
 # Guides
 style-guide.md
